@@ -42,6 +42,7 @@
 
 .banner_container{
     gap: 133px;
+    margin-bottom: 69px;
 }
 
 .banner_title{
@@ -68,6 +69,14 @@ padding: 10px 24px 10px 24px;
 border: none;
 }
 
+/* Logo Section */
+
+.icons_container{
+    max-width: 1140px;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding: 40px 50px;
+}
 
 @media screen and (max-width:576px) {
     .header nav{
@@ -85,5 +94,10 @@ border: none;
     }
     .header{
         margin: 0 30px;
+    }
+
+    .icons_container{
+        flex-wrap: wrap;
+        gap: 20px;
     }
 }
